@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans&display=swap');
+
+body{
+    background-color: #d8b9a5;
+    font-family: 'Open',sans-serif;
+}
+
+.conteiner{
+    max-width: 50%;
+    margin: auto;
+}
+
+img{
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0,5);
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.card-HTML{
+    background: beige;
+    border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.card-CSS{
+    background: rgba(86, 63, 59, 1);
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+}
+
+.btn input{
+    border-radius: 10px;
+    background: beige;
+    padding: 20px 15px;
+    border: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+ a:hover{
+    color: #fff;
+ }
+ input:hover{
+    color: #fff;
+ }
+ a:visited{
+    opacity: 0,7;;
+ }
+ input:active{
+    opacity: 0,7;
+ }
+ .navigator ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+ }
+ .navigator li{
+    background: beige;
+    border-radius: 5px;
+    padding: 1px;
+    margin: auto;
+ }
+ h4{
+    margin: 0px;
+    text-align: center;
+ }
+ .navigator li:nth-child(odd){
+    background: #fff;
+ }
+
+ .header{
+    display: flex;
+    border-radius: 5 px;
+    background: #bea492;
+    padding: 5px;
+ }
+.connect h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.label label{
+    display: block;
+    font-size: 14px;
+}
+.label input,
+.label textarea{
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.label{
+    display: inline-block;
+    margin-right: 10px;
+    width: 46%;
+}
+.label:last-child{
+    margin-right: 0;
+}
